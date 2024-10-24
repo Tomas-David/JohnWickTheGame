@@ -1,9 +1,20 @@
+@keyframes Raining {
+    0% {
+        opacity: 1;
+        transform: translateY(-100%);
+    }
+    100% {
+        transform: translateY(100%);
+    }
+}
+
 :root{
     background-image: url('/img/JwBg.webp');
-    background-position: center;
+
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
+    overflow: hidden;
 }
 
 /* container který centruje prvek */
@@ -14,6 +25,7 @@
     align-items: center;
     justify-content: center;
     height: calc(100vh - 64px);
+    position: relative;
 
 }
 
@@ -37,4 +49,21 @@
     font-size: 2.5em;
     font-weight: 700;
     margin-bottom: 1em;
+}
+
+
+.img{
+    animation: Raining 1s infinite linear;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.img_delai{
+    opacity: 0;
+    animation: Raining 1s infinite linear;
+    animation-delay: .5s;
+    position: absolute;
+    width: 100%;
+    height: 100%;
 }
