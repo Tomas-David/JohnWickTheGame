@@ -1,0 +1,40 @@
+:root{
+    background-image: url('/img/JwBg.webp');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+/* container který centruje prvek */
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - 64px);
+
+}
+
+/* container co má pozadí jako sklo */
+.background{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;   
+    align-items: center;
+    padding: 3em;
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.40);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(0px);
+    -webkit-backdrop-filter: blur(0px); 
+}
+
+/* nadpis John Wick The Game */
+.heading{
+    font-size: 2.5em;
+    font-weight: 700;
+    margin-bottom: 1em;
+}

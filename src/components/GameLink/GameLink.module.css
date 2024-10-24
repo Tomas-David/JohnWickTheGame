@@ -1,0 +1,12 @@
+.link{
+    padding: 1em 3em;
+    background-color: red;
+    border-radius: 1em;
+    color: white;
+    text-decoration: none;
+    border: solid 3px darkred;
+}
+
+.link:hover{
+    text-decoration: underline;
+}
