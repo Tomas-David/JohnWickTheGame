@@ -7,11 +7,10 @@ const StartingPage = () => {
     <div className={classes.container} >
     <img src={img} alt="rain" className={classes.img}/>
     <img src={img} alt="rain" className={classes.img_delai}/>
-
     <div className={classes.background}>
     <h1 className={classes.heading}>John Wick The Game</h1>
     
-    <GameLink title="Play" route="/Game"/>
+    <GameLink title="About Game" route="/Game"/>
     </div>
         
     </div>

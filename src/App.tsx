@@ -1,7 +1,7 @@
 import classes from './App.module.css'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import StartingPage from './pages/StartingPage/StartingPage'
-import Game from './pages/Game/Game'
+import About from './pages/About/About'
 function App() {
   
   const windowWidth = window.innerWidth
@@ -17,8 +17,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<StartingPage />}/>
-          <Route path="/game" element={<Game />}/>
-          <Route path="/contact" element={<h1>Contact</h1>}/>
+          <Route path="/About" element={<About />}/>
         </Routes>
       </BrowserRouter>
     </>

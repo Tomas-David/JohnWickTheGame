@@ -1,0 +1,22 @@
+/* container co má pozadí jako sklo */
+.background{
+    margin: auto;
+    max-width: 950px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;   
+    align-items: center;
+    padding: 3em;
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.719);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(0px);
+    -webkit-backdrop-filter: blur(0px); 
+}
+
+.video{
+    width: 950px;
+    height: 300px;
+    border-radius: 16px;
+}
