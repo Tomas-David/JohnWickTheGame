@@ -1,3 +1,7 @@
+body{
+    background-color: rgb(160, 37, 37);
+}
+
 /* container co má pozadí jako sklo */
 .background{
     margin: auto;
